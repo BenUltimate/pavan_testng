@@ -7,6 +7,7 @@
   <parameter name="broswer" value="chrome"></parameter>
     <classes>
       <class name="testCases.TC_001_AccountRegistrationTest"/>
+      <class name="testCases.TC_002_LoginTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
