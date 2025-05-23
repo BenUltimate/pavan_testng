@@ -1,0 +1,83 @@
+1)Test case : Account Registration 
+1.1: Create BasePage under "pageObjects" which includes only constructor. This will be invoked by every page object class 
+constructor(Re-usability)
+1.2 Create Page object Classes for HomePage,RegistrationPage under pageObjects package.
+(These classes extends from BasePage)
+
+1.3) Create AccountRegistrationTest under "testCases"
+1.4)Create BaseClass under testBase package and copy re-usable methods 
+1.5)Create re-usable methods to generate random numbers and strings in BaseClass.
+
+
+2)Adding logs to test case(log4j2)
+=================================
+2.1 Add log4j2.xml file under src/test/resources
+2.2 Update BaseClass
+2.3 Add log statements to AccountRegistrationTest
+
+Loggging -recording all the events in the form of text.
+
+Nomrally There are two kinds of logs 
+
+Application Logs
+---------------
+Any user performing action in the application backed side log files will be generated 
+what ever the actions are done by the user or customer 
+every event will be logged into the log file 
+at the backend side as a user we cannot see 
+in production any user is doing unauthorized action in that particular case 
+they can easily track the information they can do the immediate action 
+ 
+Automation Logs 
+---------------
+through the test case what ever the events are doing 
+if any test case is failed then that information is also part of log file 
+
+Log Levels
+
+All<Trace <Debug <Info <Warn <Error <Fatal <Off
+
+
+Appenders - where to generate logs (Console/File)
+Loggers - what type of logs generate(All<Trace<Debug<Info<Warn<Error<Fatal<Off)
+
+In log4j2.xml we have to specify where we have to store in console /File that we have to write down in log4j2.xml file 
+
+
+In the base class we have to update the log file 
+
+why base class bcz this is the common class required for every test case 
+
+
+3)Run Test on Desired Browser /Cross Browser /Parallel
+======================================================
+3.1)create testng.xml file to run test cases and parameterize browser name and OS to BaseClass
+setUp() method 
+3.2)Update BaseClass->setUp() method launch browser based on conditions
+3.3)maintain seperate xml to run test multiple browsers parallelly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
