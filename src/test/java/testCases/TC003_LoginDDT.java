@@ -21,7 +21,7 @@ public class TC003_LoginDDT extends BaseClass {
 	// if there are data providers written in another class then we have to write
 	// like this
 	// if data provider is there in same class then no need
-	@Test(dataProvider="LoginData",dataProviderClass=DataProviders.class)
+	@Test(dataProvider="LoginData",dataProviderClass=DataProviders.class,groups= "Datadriver")
 	public void verify_loginDDT(String email,String pwd,String exp) {
 		
 		logger.info("Starting TC_003_LoginDDT");

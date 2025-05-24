@@ -1,6 +1,7 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
@@ -9,6 +10,7 @@ import testBase.BaseClass;
 
 public class TC002_LoginTest extends BaseClass{
 	
+	@Test(groups={"Sanity","Master"})
 	public void verify_login() {
 		logger.info("****Starting TC_002_LoginTest****");
 		
