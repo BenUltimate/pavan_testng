@@ -18,12 +18,14 @@ public class TC002_LoginTest extends BaseClass{
 		//HomePage
 		HomePage hp = new HomePage(driver);
 		hp.clickMyAccount();
+		
 		hp.clickLogin();
 		
 		//LoginPage
 		LoginPage lp = new LoginPage(driver);
 		lp.setEmail(p.getProperty("email"));
 		lp.setPassword(p.getProperty("password"));
+		lp.clickLogin();
 		
 		//MyAccount
 		MyAccountPage macc = new MyAccountPage(driver);

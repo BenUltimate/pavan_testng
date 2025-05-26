@@ -20,10 +20,10 @@ public class AccountRegistrationPage extends BasePage{
 	@FindBy(xpath="//input[@id='input-email']")
 	WebElement txtEmail;
 	
-	@FindBy(xpath="//input[@id='input-telephone")
+	@FindBy(xpath="//input[@id='input-telephone']")
 	WebElement txtTelephone;
 	
-	@FindBy(xpath="//input[@id='input=password']")
+	@FindBy(xpath="//input[@id='input-password']")
 	WebElement txtPassword;
 	
 	@FindBy(xpath="//input[@id='input-confirm']")
@@ -32,7 +32,7 @@ public class AccountRegistrationPage extends BasePage{
 	@FindBy(xpath="//input[@name='agree']")
 	WebElement chkdPolicy;
 	
-	@FindBy(xpath="//input[@name='Continue']")
+	@FindBy(xpath="//input[@value='Continue']")
 	WebElement btnContinue;
 	
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")
