@@ -40,3 +40,27 @@
 2025-05-27 10:07:39 INFO  TC_001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
 2025-05-27 10:07:44 INFO  TC002_LoginTest:15 - ****Starting TC_002_LoginTest****
 2025-05-27 10:07:45 INFO  TC002_LoginTest:40 - ****Starting TC_002_LoginTest****
+2025-05-27 15:39:17 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
+
+2025-05-27 15:39:23 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-05-27 15:39:23 INFO  TC_001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2025-05-27 15:39:24 INFO  TC_001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2025-05-27 15:39:24 INFO  TC_001_AccountRegistrationTest:28 - Providing customer details...
+2025-05-27 15:39:25 INFO  TC_001_AccountRegistrationTest:42 - Validating expected message..
+2025-05-27 15:39:25 INFO  TC_001_AccountRegistrationTest:47 - Test passed
+2025-05-27 15:39:25 INFO  TC_001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-05-27 15:39:33 INFO  TC002_LoginTest:15 - ****Starting TC_002_LoginTest****
+2025-05-27 15:39:35 INFO  TC002_LoginTest:40 - ****Starting TC_002_LoginTest****
+2025-05-27 18:15:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
+
+2025-05-27 18:15:35 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-05-27 18:15:35 INFO  TC_001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2025-05-27 18:15:36 INFO  TC_001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2025-05-27 18:15:36 INFO  TC_001_AccountRegistrationTest:28 - Providing customer details...
+2025-05-27 18:15:37 INFO  TC_001_AccountRegistrationTest:42 - Validating expected message..
+2025-05-27 18:15:37 INFO  TC_001_AccountRegistrationTest:47 - Test passed
+2025-05-27 18:15:37 INFO  TC_001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-05-27 18:15:43 INFO  TC002_LoginTest:15 - ****Starting TC_002_LoginTest****
+2025-05-27 18:15:45 INFO  TC002_LoginTest:40 - ****Starting TC_002_LoginTest****
