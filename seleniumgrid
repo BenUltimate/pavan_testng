@@ -1,0 +1,103 @@
+Selenium Grid SetUp 
+===================
+In Grid mainly we have two components Grid Hub and Node 
+
+what is a hub and Node ?
+
+Hub 
+---
+from where you have written the test cases 
+from where you are executing the test cases 
+from where you are controlling the entire setUp that is called as Hub main system is called Hub 
+
+Node
+-----
+it is nothing but remote machines 
+on which browser on which os 
+
+For example : mac-> linux-->windows these are different machines 
+
+Node is nothing but a machine in which all browsers are installed 
+
+Throught the grid we have to attach this information to the particular hub 
+what ever the nodes are there all of them we have to attach to Hub 
+
+so the hub is able to recognize all the nodes in the grid entire setUp is called as grid 
+
+
+
+In real environment it is very difficult to put the physical machines 
+very costly that also we will use them temporarly only for testing purpose we will use few days 
+
+2nd option is vms it means virtual machines the operating system we can install it on our operating system 
+Lets say windows is Main Host 
+we can install vm's software and use it in windows
+again this is also very problametic to create vms and install 
+
+so we will go through the docker 
+first we will download the image from dockor and we will create a container 
+so this container can have all the setUp 
+
+Now this container will make it as a Node 
+we can download multiple images from docker hub 
+from those images we can download multiple containers 
+every container is acting as a node 
+
+
+In single system also we can make it as Hub and Node it is also possible 
+
+StandAlone :->for single system we can call it as a StandAlone Using Hub & Node 
+Distributed:->for multiple systems we can call it as a Distributed Node -->this part we will use using docker concept 
+
+
+StandAlone
+----------
+1.Download selenium-server-4.15.0.jar and place it somewhere 
+2.Run below command to start selenium Grid 
+	java -jar selenium-server-4.15.0.jar standalone
+	3.Url to see sessions:http://localhost:4444/
+	
+
+
+
+
+
+Hub&Node setup(Multiple machines)
+---------------------------------
+1.Download selenium-server-4.15.0.jar and place it somewhere in both (hub & node) the machines
+2.Run below command to make machine as hub 
+	java-jar selenium-server-4.15.0.jar hub
+
+3.Run below command to make machine as node
+	java-jar selenium-server-4.15.0.jar node --hub http://<hub-ip>:4444
+	
+4.URL to see sessions:http://localhost:4444/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

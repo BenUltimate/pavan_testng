@@ -1,0 +1,108 @@
+From pom.xml we have used for adding our dependencies 
+in pom.xml we have two kind of entries we have 
+
+dependencies -- download requred dependency jar for project 
+
+plugines
+--------
+we can add plugins for pom.xml we can compile and run the project 
+
+so in pom.xml we have two things dependencies and plugins 
+
+once we added plugins we can compile and run the project 
+so far we have run through xml file with in my eclipse but once you come out from eclipse 
+some times we can run the test cases from outside of eclipse in that case we need to use pom.xml 
+
+for this we have to add two plugins 
+
+1)maven compiler plugin
+This is used for compiling the code
+
+ 
+2)maven surefire plugin 
+This is used for running your project 
+
+Both we need to add in pom.xml 
+
+so now we have to run this through the pom.xml file 
+
+once go to run as option now we have to run as a maven test 
+==================================================================================================================================================================
+so far we have executed our projects through pom.xml now if you do not have eclipse without having any ide 
+
+for that we have to install maven softwrae 
+
+maveen is having two levels 
+one is within your eclipse 
+we can also install maveen on operating system level 
+
+once you comeout from maveen we have to install maveen from operating system level then we are able to run our entire project outside of command prompt 
+
+Install maven system on operating system level 
+----------------------------------------------
+----------------------------------------------
+https://maven.apache.org/download.cgi
+
+download this from zip file and extract and keep it in some where here 
+
+D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+
+Go to the environment variables and click on edit and paste this path 
+
+
+Now go to the cmd prompt and change the location to our project location 
+
+C:\Users\ADMIN\eclipse-workspace\OpencartV121
+
+now type mvn test 
+
+
+but i don't want to use manually 
+
+simply we can create one bat file 
+
+
+so we have seen within the eclipse and also outside of eclipse now 
+as of now we have executed commands two commands we have executed in command prompt 
+simply we can create create one bat file and execute 
+
+
+Now it is executable file not text file "run.bat" when you click on save as it will change it to bat file 
+
+So now with single click everything will be executed 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

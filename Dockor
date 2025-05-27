@@ -1,0 +1,230 @@
+Docker
+======
+it is nothing but containerization 
+
+containarization means we no need to set up virtual machine
+
+Docker is a concept which will follow containarization 
+
+we have a dockerhub which is like a repository 
+
+All the stuff will be maintained in single repository 
+
+docker hub maintains n number of docker images 
+
+image is nothing but a software 
+
+image is something from that we can create a container 
+
+once you downloaded the image from that image we will create a container we will work on this container 
+
+
+In vertual machine we need to share the hardware from our system 
+lets say your system is 16gb then you install 4 vms each system will share 4gb 
+
+In container it is not like that it will not have any impack on the hardware 
+
+One image we can create one container 
+
+
+Docker Commands
+---------------
+docker version / docker -v
+
+this command will show you the version of the docker 
+
+docker info 
+
+this will provide you the inforamtion about the docker 
+
+docker --help 
+
+here we will get all the list of commands in the docker 
+
+docker login 
+
+to login from the command prompt we will use this command 
+
+
+docker images 
+=============
+
+
+
+this will give you what ever the images are already downloaded in the earlier 
+
+docker pull ubuntu 
+==================
+Now this image is succesfully download
+
+To delete the image
+====================
+first we need to get the image id 
+
+docker rmi <image id>
+
+To know the list of containers which are already downloaded
+-----------------------------------------------------------
+docker ps 
+
+First to create a container we should have a image 
+
+docker pull ubuntu 
+
+Now we have a image first 
+
+Now if you look at 
+
+docker images 
+we will get the list of images 
+
+From this image we want to create a container 
+
+docker run ubuntu 
+
+Lets say if you don't have an image and you are trying to execute then 
+what happens is 
+
+this particular command will check wheather the image is there or not 
+if it is present by using this image we will create a container 
+
+suppose if the image is not available then this command will get the iamge first 
+it will automatically download the image then it will create the container 
+
+now if you run the command (docker ps) it will not show the list of containers bcz 
+
+you have just created the containers but not run the container so the (docker ps) this will 
+show you only the running container 
+
+(docker run ubuntu) this will create the actual container 
+(docker start) to start the container 
+(docker stop) to stop the container 
+
+(docker rm < container id/name> ) this will remove the container 
+
+now the container is ther now i want to interact with the container 
+
+For one image we can contain multiple containers 
+
+(docker run it ubutu) it will interactive with the container 
+
+(docker stop <container id/name>)
+
+(docker stats) 
+if you want to know docker how much statistics how much memory
+how much cpu memory it is utilized internally 
+
+(docker system df) 
+it will show you disc related by using docker 
+it will show you how many images are there 	
+how many containers are there 
+how much size is using 
+
+suppose 5 to 10 containers are running need to stop at one shot (docker system prune -f) 
+instead of removing individual images one by one by using this we can remove all the containers 
+at once it will delete all the containers which is running currently 
+
+For automation purpose we have to download 3 images 
+
+1)hub
+2)linux-firefox
+3)linux-chrome 
+
+once we downloaded we have create the containers 
+
+contianer commands
+===================
+
+docker ps 
+docker run <<image name>>
+docker start <<container id>>
+docker stop <<container id >> 
+docker rm < container id>
+
+system commands 
+===============
+docker stats
+docker system df 
+docker system prune -f 
+
+docker pull selenium/hub
+
+docker pull selenium/node-chrome
+
+docker pull selenium/node-firefox
+
+These images are downloaded individually 
+
+At the time of creating containers we need to create them in single network 
+
+(docker network create name) here we will create the network 
+
+docker network create grid
+
+docker run -d -p 4442-4444:4442-4444 --net grid --name selenium-hub selenium/hub
+
+docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-chrome
+
+docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-firefox
+
+
+Previously now we have created these commands through command prompt and executed but this is also very hard task so there is another approach 
+this is alternative of first approach
+
+we will use docker compose.yaml file this is a configuration file 
+
+Now where ever the yaml file is present go to the location here use one command called 
+
+(docker-compose start) this will execute the yaml file and grid hub nodes everything will be ready  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
