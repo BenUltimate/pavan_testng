@@ -1,0 +1,105 @@
+download the jenkins war file from the website 
+
+https://www.jenkins.io/download/
+
+81026db18b0c4aad6b62cf408e4c42e5797661b41c517b37df606238e89b9df1
+
+Keep it in another seperate folder 
+
+where ever war file got copied we have to go to that loaction and open command prompt 
+
+
+(java -jar jenkins.war) run this command it will start the installation process 
+
+13ae8a4f436b4d9c9973457e4c8d3948 once you installed this is the admin password we have to keep it 
+
+
+Go to manage jenkins 
+
+click on plugins 
+suppose if you want to work with 3rd party tools 
+for example if you want to work with maveen , github these are all external plugins 
+some plugins will come by jenkins installation itself 
+some plugins we have to install manually 
+
+we need maven ,git , github plugin 
+
+git , github plugins will be already available now we have to install maveen plug in by going into available plugins and type maveen
+and click on checkbox and click on install 
+now go to installed plugins and type plgin now it will show you maven integration plugin 
+
+we have to do some configurations like 
+we have already installed java , maven , git location in our location 
+that we have to configure in jenkins so that jenkins will know these things we have to specify these paths 
+
+go to manage jenkins 
+go to tools 
+
+Add the jdk folder C:\Program Files\Java\jdk-21 give any name 
+Add the git exe file as well C:\Program Files\Git\bin 
+Add the maveen D:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+
+ click on save and now we have to run our project 
+ 
+ click on New Item 
+ Give some project name click on maven project 
+ 
+ click on ok button now it will go to the configuration page 
+ 
+ Now give some description about the project and 
+ 
+ now go to source code management section 
+ select git software 
+ here you have to provide the url of the project 
+ https://github.com/BenUltimate/pavan_testng.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
