@@ -1,151 +1,26 @@
-2025-05-30 12:42:39 INFO  Utils:112 - [TestNG] Running:
+2025-06-02 09:28:11 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
 
-2025-05-30 12:42:48 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2025-05-30 12:42:48 INFO  TC_001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2025-05-30 12:42:49 INFO  TC_001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2025-05-30 12:42:49 INFO  TC_001_AccountRegistrationTest:28 - Providing customer details...
-2025-05-30 12:42:49 INFO  TC_001_AccountRegistrationTest:42 - Validating expected message..
-2025-05-30 12:42:50 INFO  TC_001_AccountRegistrationTest:47 - Test passed
-2025-05-30 12:42:50 INFO  TC_001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2025-05-30 12:42:54 INFO  TC002_LoginTest:15 - ****Starting TC_002_LoginTest****
-2025-05-30 12:42:55 INFO  TC002_LoginTest:40 - ****Starting TC_002_LoginTest****
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-941478353\testng-customsuite.xml
-
-2025-05-30 17:27:47 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
-2025-05-30 17:27:47 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6b5894c8: 12 ms
-2025-05-30 17:27:48 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@1991f767: 31 ms
-2025-05-30 17:27:48 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@7a48e6e2: 5 ms
-2025-05-30 17:27:48 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@68d6972f: 5 ms
-2025-05-30 17:27:48 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4648ce9: 4 ms
-2025-05-30 17:27:48 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@180e6ac4: 4 ms
-2025-05-30 17:27:48 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@42b64ab8: 1 ms
-2025-05-30 17:29:51 INFO  Utils:112 - [TestNG] Running:
+2025-06-02 13:48:36 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
 
-2025-05-30 17:30:54 INFO  Utils:112 - [TestNG] Running:
+2025-06-02 13:51:03 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
 
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-1249518847\testng-customsuite.xml
-
-2025-05-30 17:32:58 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
-2025-05-30 17:32:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6b5894c8: 10 ms
-2025-05-30 17:32:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@1991f767: 28 ms
-2025-05-30 17:32:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@7a48e6e2: 6 ms
-2025-05-30 17:32:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@68d6972f: 6 ms
-2025-05-30 17:32:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4648ce9: 4 ms
-2025-05-30 17:32:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@180e6ac4: 3 ms
-2025-05-30 17:32:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@42b64ab8: 0 ms
-2025-05-30 17:33:09 INFO  Utils:112 - [TestNG] Running:
+2025-06-02 13:53:38 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
 
-2025-05-30 17:40:55 INFO  Utils:112 - [TestNG] Running:
+2025-06-02 15:33:19 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
 
-2025-05-30 17:42:35 INFO  Utils:112 - [TestNG] Running:
+2025-06-02 15:33:51 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
 
-2025-05-30 17:46:50 INFO  Utils:112 - [TestNG] Running:
+2025-06-02 15:34:17 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
 
-2025-05-30 17:47:55 INFO  Utils:112 - [TestNG] Running:
+2025-06-02 17:47:55 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
 
-2025-05-30 17:50:54 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 17:51:59 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 17:55:55 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 17:59:30 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 18:02:34 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 18:07:20 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 18:08:32 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 18:11:06 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 18:12:22 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 18:13:56 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 18:22:30 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-05-30 18:26:47 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
+2025-06-02 17:47:59 INFO  TC_001_MedLoginTest:19 - ****Started verify login**************
+2025-06-02 17:48:00 INFO  TC_001_MedLoginTest:46 - *****Starting TC002_Login******
