@@ -24,3 +24,25 @@
 
 2025-06-02 17:47:59 INFO  TC_001_MedLoginTest:19 - ****Started verify login**************
 2025-06-02 17:48:00 INFO  TC_001_MedLoginTest:46 - *****Starting TC002_Login******
+2025-06-03 15:29:34 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-03 15:29:44 INFO  TC_001_MedLoginTest:19 - ****Started verify login**************
+2025-06-03 15:29:45 INFO  TC_001_MedLoginTest:46 - *****Starting TC002_Login******
+2025-06-03 18:00:27 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-03 18:01:00 INFO  TC_002_MedMasterDataTest:19 - ****Started verify login**************
+2025-06-03 18:09:50 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-03 18:09:54 INFO  TC_002_MedMasterDataTest:19 - ****Started verify login**************
+2025-06-03 18:12:46 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-03 18:12:50 INFO  TC_002_MedMasterDataTest:19 - ****Started verify login**************
+2025-06-03 18:18:31 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-03 18:18:35 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-03 18:18:36 INFO  TC_002_MedMasterDataTest:55 - **** Master Data verification steps completed successfully ****

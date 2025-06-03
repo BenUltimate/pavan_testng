@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-02T17:47:55 IST" name="Suite" finished-at="2025-06-02T17:48:00 IST" duration-ms="5936">
+  <suite started-at="2025-06-03T18:18:31 IST" name="Suite" finished-at="2025-06-03T18:18:36 IST" duration-ms="5795">
     <groups>
     </groups>
-    <test started-at="2025-06-02T17:47:55 IST" name="Test" finished-at="2025-06-02T17:48:00 IST" duration-ms="5936">
-      <class name="testCases.TC_001_MedLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_MedLoginTest@256f8274]" started-at="2025-06-02T17:47:55 IST" name="setup" finished-at="2025-06-02T17:47:59 IST" duration-ms="4336" status="PASS">
+    <test started-at="2025-06-03T18:18:31 IST" name="Test" finished-at="2025-06-03T18:18:36 IST" duration-ms="5795">
+      <class name="testCases.TC_002_MedMasterDataTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_MedMasterDataTest@256f8274]" started-at="2025-06-03T18:18:31 IST" name="setup" finished-at="2025-06-03T18:18:35 IST" duration-ms="3897" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC_001_MedLoginTest@256f8274]" started-at="2025-06-02T17:47:59 IST" name="verify_login" finished-at="2025-06-02T17:48:00 IST" duration-ms="1309" status="PASS">
+        <test-method signature="verify_masterdata()[pri:0, instance:testCases.TC_002_MedMasterDataTest@256f8274]" started-at="2025-06-03T18:18:35 IST" name="verify_masterdata" finished-at="2025-06-03T18:18:36 IST" duration-ms="1612" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_MedLoginTest@256f8274]" started-at="2025-06-02T17:48:00 IST" name="tearDown" finished-at="2025-06-02T17:48:00 IST" duration-ms="170" status="PASS">
+        </test-method> <!-- verify_masterdata -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_MedMasterDataTest@256f8274]" started-at="2025-06-03T18:18:36 IST" name="tearDown" finished-at="2025-06-03T18:18:36 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_MedLoginTest -->
+      </class> <!-- testCases.TC_002_MedMasterDataTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
