@@ -1,53 +1,915 @@
-2025-06-02 09:28:11 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-06-02 13:48:36 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-06-02 13:51:03 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-06-02 13:53:38 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-06-02 15:33:19 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-06-02 15:33:51 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-06-02 15:34:17 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-06-02 17:47:55 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ADMIN\eclipse-workspace\OpencartV121\master.xml
-
-2025-06-02 17:47:59 INFO  TC_001_MedLoginTest:19 - ****Started verify login**************
-2025-06-02 17:48:00 INFO  TC_001_MedLoginTest:46 - *****Starting TC002_Login******
-2025-06-03 15:29:34 INFO  Utils:112 - [TestNG] Running:
+2025-06-06 16:14:50 INFO  Utils:112 - [TestNG] Running:
   D:\pavan_testng\master.xml
 
-2025-06-03 15:29:44 INFO  TC_001_MedLoginTest:19 - ****Started verify login**************
-2025-06-03 15:29:45 INFO  TC_001_MedLoginTest:46 - *****Starting TC002_Login******
-2025-06-03 18:00:27 INFO  Utils:112 - [TestNG] Running:
+2025-06-06 16:14:56 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 16:14:57 INFO  TC_002_MedMasterDataTest:55 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:04:30 INFO  Utils:112 - [TestNG] Running:
   D:\pavan_testng\master.xml
 
-2025-06-03 18:01:00 INFO  TC_002_MedMasterDataTest:19 - ****Started verify login**************
-2025-06-03 18:09:50 INFO  Utils:112 - [TestNG] Running:
+2025-06-06 17:05:03 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 17:05:04 INFO  TC_002_MedMasterDataTest:59 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:05:18 INFO  Utils:112 - [TestNG] Running:
   D:\pavan_testng\master.xml
 
-2025-06-03 18:09:54 INFO  TC_002_MedMasterDataTest:19 - ****Started verify login**************
-2025-06-03 18:12:46 INFO  Utils:112 - [TestNG] Running:
+2025-06-06 17:05:22 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 17:05:25 ERROR TC_002_MedMasterDataTest:62 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1792, 156). Other element would receive the click: <div _ngcontent-ng-c3790935512="" class="spinner-overlay ng-star-inserted">...</div>
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72f5974148f2f20e530029745bd3b70e, clickElement {id=f.9C40C764756A75E4FFB91AC32EC68548.d.4F2BA69641FA045F851C9D7FFC5A545C.e.226}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64600}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64600/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (72f5974148f2f20e530029745bd3b70e)] -> xpath: //button/span[text()=' Add Continent ']]
+Session ID: 72f5974148f2f20e530029745bd3b70e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.20.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.20.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at pageObjects.MasterDataPage.clickAddContinent(MasterDataPage.java:31) ~[test-classes/:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:57) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:08:25 INFO  Utils:112 - [TestNG] Running:
   D:\pavan_testng\master.xml
 
-2025-06-03 18:12:50 INFO  TC_002_MedMasterDataTest:19 - ****Started verify login**************
-2025-06-03 18:18:31 INFO  Utils:112 - [TestNG] Running:
+2025-06-06 17:08:29 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:08:32 ERROR TC_002_MedMasterDataTest:67 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1792, 156). Other element would receive the click: <div _ngcontent-ng-c3790935512="" class="spinner-overlay ng-star-inserted">...</div>
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40111e8308be4c12735581fbf6e9c3ef, clickElement {id=f.AA0E16262DFEE03D1621E7C088D78ED4.d.BC950CFB66971F64DB632EC879FB821C.e.211}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64742/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (40111e8308be4c12735581fbf6e9c3ef)] -> xpath: //button/span[normalize-space()='Add Continent']]
+Session ID: 40111e8308be4c12735581fbf6e9c3ef
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.20.0.jar:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:61) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:12:40 INFO  Utils:112 - [TestNG] Running:
   D:\pavan_testng\master.xml
 
-2025-06-03 18:18:35 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
-2025-06-03 18:18:36 INFO  TC_002_MedMasterDataTest:55 - **** Master Data verification steps completed successfully ****
-2025-06-03 18:32:58 INFO  Utils:112 - [TestNG] Running:
+2025-06-06 17:12:44 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:12:57 ERROR TC_002_MedMasterDataTest:70 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1792, 156). Other element would receive the click: <div _ngcontent-ng-c3790935512="" class="spinner-overlay ng-star-inserted">...</div>
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [314012b730e5231b78498d36e7b6a3d1, clickElement {id=f.B6E34A5E99D40AA59C782D2EA33378BE.d.2ECB8D77D1FCDE86A49D9A1E8340C266.e.209}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64943}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64943/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (314012b730e5231b78498d36e7b6a3d1)] -> xpath: //button/span[normalize-space()='Add Continent']]
+Session ID: 314012b730e5231b78498d36e7b6a3d1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.20.0.jar:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:64) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:15:39 INFO  Utils:112 - [TestNG] Running:
   D:\pavan_testng\master.xml
 
-2025-06-03 18:33:03 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
-2025-06-03 18:33:05 INFO  TC_002_MedMasterDataTest:55 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:15:44 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:15:55 INFO  TC_002_MedMasterDataTest:69 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:16:38 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:16:42 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:16:57 INFO  TC_002_MedMasterDataTest:69 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:17:13 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:17:17 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:17:32 INFO  TC_002_MedMasterDataTest:69 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:17:55 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:17:59 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:18:21 INFO  TC_002_MedMasterDataTest:69 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:20:34 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:20:38 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:20:50 INFO  TC_002_MedMasterDataTest:69 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:21:41 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:21:45 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:22:00 INFO  TC_002_MedMasterDataTest:70 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:23:06 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:23:12 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:23:27 INFO  TC_002_MedMasterDataTest:70 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:25:06 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:25:10 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:25:52 ERROR TC_002_MedMasterDataTest:85 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Continent Name')]/following::input[1] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49328}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49328/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 925163269f4d0935454152365828e37e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.20.0.jar:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:74) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:28:07 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:28:14 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:28:57 ERROR TC_002_MedMasterDataTest:81 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Continent Name')]/following::input[1] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49484/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78538f903c147977ad5ab5f1e517a900
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.20.0.jar:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:70) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:30:29 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:30:33 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:31:06 ERROR TC_002_MedMasterDataTest:86 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .v-dialog.v-dialog--active (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49607/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67aeaac42334c15e34175c96537a7046
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.20.0.jar:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:67) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:33:03 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:33:08 INFO  TC_002_MedMasterDataTest:22 - **** Started verify_masterdata test ****
+2025-06-06 17:33:50 ERROR TC_002_MedMasterDataTest:86 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .v-dialog.v-dialog--active (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49742/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ec7d49ab88103253c338c99eacea9fe
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.20.0.jar:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:70) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:37:55 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:38:00 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 17:38:06 ERROR TC_002_MedMasterDataTest:64 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1792, 156). Other element would receive the click: <div _ngcontent-ng-c3790935512="" class="spinner-overlay ng-star-inserted">...</div>
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f1988c3b15497e5aba90b334d374529, clickElement {id=f.064DBDBA388CF55F4546393C42CBB546.d.25E8720C62036E8392CC7F4DF981F3CF.e.211}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49953/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1f1988c3b15497e5aba90b334d374529)] -> xpath: //button/span[text()=' Add Continent ']]
+Session ID: 1f1988c3b15497e5aba90b334d374529
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.20.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.20.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at pageObjects.MasterDataPage.clickAddContinent(MasterDataPage.java:31) ~[test-classes/:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:38:54 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:38:58 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 17:39:20 INFO  TC_002_MedMasterDataTest:61 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:42:34 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:42:39 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 17:42:41 ERROR TC_002_MedMasterDataTest:64 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1792, 156). Other element would receive the click: <div _ngcontent-ng-c3790935512="" class="spinner-overlay ng-star-inserted">...</div>
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1bd701f6dd9f9b188597f8815cf6b8c6, clickElement {id=f.2735D6C069BA12B1392BC636F1206597.d.2503AA16AB83B60947ED305258B1E915.e.206}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50198/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1bd701f6dd9f9b188597f8815cf6b8c6)] -> xpath: //button/span[text()=' Add Continent ']]
+Session ID: 1bd701f6dd9f9b188597f8815cf6b8c6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.20.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.20.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at pageObjects.MasterDataPage.clickAddContinent(MasterDataPage.java:31) ~[test-classes/:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:43:32 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:43:38 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 17:43:44 ERROR TC_002_MedMasterDataTest:64 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80bab44e729c3d458f01d31499c6ecb0, isElementDisplayed {id=f.188C55BF87BA332B70E896B32E80BCBF.d.8C5A620699B03A140C0E39DF944ADEDC.e.137}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50289/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (80bab44e729c3d458f01d31499c6ecb0)] -> id: accountDropdownMenuLink]
+Session ID: 80bab44e729c3d458f01d31499c6ecb0
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282) ~[selenium-remote-driver-4.20.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.20.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.20.0.jar:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:43) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:44:05 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:44:11 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 17:44:24 ERROR TC_002_MedMasterDataTest:64 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1792, 156). Other element would receive the click: <div _ngcontent-ng-c3790935512="" class="spinner-overlay ng-star-inserted">...</div>
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac2b39be1df558d4e4a24455762e49d8, clickElement {id=f.98508B7B6869B2EBEC67254EECC67519.d.BA41DB2253F18112854CBF9DFE5A7F0E.e.212}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50354/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ac2b39be1df558d4e4a24455762e49d8)] -> xpath: //button/span[text()=' Add Continent ']]
+Session ID: ac2b39be1df558d4e4a24455762e49d8
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.20.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.20.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at pageObjects.MasterDataPage.clickAddContinent(MasterDataPage.java:31) ~[test-classes/:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 17:46:11 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:46:20 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 17:46:42 INFO  TC_002_MedMasterDataTest:61 - **** Master Data verification steps completed successfully ****
+2025-06-06 17:59:30 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 17:59:34 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 17:59:47 ERROR TC_002_MedMasterDataTest:68 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1792, 156). Other element would receive the click: <div _ngcontent-ng-c3790935512="" class="spinner-overlay ng-star-inserted">...</div>
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94895d3a06e83ea62bebc6e5046e63a2, clickElement {id=f.6BCFC8D6C7CBAEE084B6C2E83189B9C6.d.A3641977CE557C6A5244DC6F8707AEA2.e.211}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50890/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (94895d3a06e83ea62bebc6e5046e63a2)] -> xpath: //button/span[text()=' Add Continent ']]
+Session ID: 94895d3a06e83ea62bebc6e5046e63a2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.20.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.20.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at pageObjects.MasterDataPage.clickAddContinent(MasterDataPage.java:58) ~[test-classes/:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 18:00:24 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 18:00:29 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 18:02:10 ERROR TC_002_MedMasterDataTest:68 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [279e17e8b28a2460cf58d0a172fedf53, findElement {using=xpath, value=//button/span[text()=' Add Continent ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50976/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 279e17e8b28a2460cf58d0a172fedf53
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.20.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.20.0.jar:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:57) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 18:02:30 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 18:02:35 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 18:02:48 ERROR TC_002_MedMasterDataTest:68 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1792, 156). Other element would receive the click: <div _ngcontent-ng-c3790935512="" class="spinner-overlay ng-star-inserted">...</div>
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33f08f69101ef82e6d4c35755488f471, clickElement {id=f.AF173954A622C8369CAADCC59AAC0DF5.d.530B631C66FDDD99B35AD50EE4446418.e.208}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51099/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (33f08f69101ef82e6d4c35755488f471)] -> xpath: //button/span[text()=' Add Continent ']]
+Session ID: 33f08f69101ef82e6d4c35755488f471
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.20.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.20.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at pageObjects.MasterDataPage.clickAddContinent(MasterDataPage.java:58) ~[test-classes/:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 18:04:21 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 18:04:26 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 18:04:27 ERROR TC_002_MedMasterDataTest:68 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c23fe45deeb0f8a5ee7de30ed278d238, isElementDisplayed {id=f.FD661F48AE7C87B9910E79AD2B083514.d.98DE0113046744DFDDA54AC35DF4B333.e.134}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51220}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51220/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c23fe45deeb0f8a5ee7de30ed278d238)] -> id: accountDropdownMenuLink]
+Session ID: c23fe45deeb0f8a5ee7de30ed278d238
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282) ~[selenium-remote-driver-4.20.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.20.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.20.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.20.0.jar:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:43) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-06-06 18:04:58 INFO  Utils:112 - [TestNG] Running:
+  D:\pavan_testng\master.xml
+
+2025-06-06 18:05:02 INFO  TC_002_MedMasterDataTest:19 - **** Started verify_masterdata test ****
+2025-06-06 18:05:05 ERROR TC_002_MedMasterDataTest:68 - Exception occurred in verify_masterdata test: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="mdc-button__label">...</span> is not clickable at point (1792, 156). Other element would receive the click: <div _ngcontent-ng-c3790935512="" class="spinner-overlay ng-star-inserted">...</div>
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed8268306920314281e59d3c0e294cce, clickElement {id=f.7E2A9E448617FD30715CEF68A310FCD7.d.B790DA72F557302D0E7EF95711B0F969.e.185}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51284}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51284/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ed8268306920314281e59d3c0e294cce)] -> xpath: //button/span[text()=' Add Continent ']]
+Session ID: ed8268306920314281e59d3c0e294cce
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.20.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.20.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at pageObjects.MasterDataPage.clickAddContinent(MasterDataPage.java:58) ~[test-classes/:?]
+	at testCases.TC_002_MedMasterDataTest.verify_masterdata(TC_002_MedMasterDataTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
