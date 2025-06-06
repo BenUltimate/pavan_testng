@@ -51,7 +51,17 @@ public class TC_002_MedMasterDataTest extends BaseClass {
 
 			wait.until(ExpectedConditions.elementToBeClickable(mdp.getContinentButton()));
 			mdp.clickContinentButton();
+			
+			
+			//add continent
+			wait.until(ExpectedConditions.elementToBeClickable(mdp.getAddContinent()));
+			mdp.clickAddContinent();
+			mdp.enterContinentCode("5555");
+			mdp.enterContinentName("Auto");
+			mdp.clickSave();
+			
 
+			
 			logger.info("**** Master Data verification steps completed successfully ****");
 
 		} catch (Exception e) {
