@@ -93,13 +93,14 @@ public class BaseClass {
 			default:
 				System.out.println("Invalid browser name..");
 				return;
+
 			}
 		}
 
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-		driver.get(p.getProperty("appURL2")); // reading url from properties file.
+		driver.get(p.getProperty("appURL3")); // reading url from properties file.
 		driver.manage().window().maximize();
 	}
 
